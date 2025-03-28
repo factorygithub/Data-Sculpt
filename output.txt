@@ -1,0 +1,339 @@
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+==== RESTART: C:/Users/sumisra/OneDrive - Microsoft/desktop/python/final.py ====
+Initial message from CuriousObserver:
+CuriousObserver (to chat_manager):
+
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_UJpG87vP6MyKwh5Aft2iul0M): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION get_ips_with_failed_or_brute_force...
+Call ID: call_UJpG87vP6MyKwh5Aft2iul0M
+Input arguments: {}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_UJpG87vP6MyKwh5Aft2iul0M) *****
+194.87.3.22
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: ITAdministrator
+
+ITAdministrator (to chat_manager):
+
+***** Suggested tool call (call_NxufcL3RcTIASWIGW6QlX6ql): check_ip_trust *****
+Arguments: 
+{"ip_address":"194.87.3.22"}
+*******************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION check_ip_trust...
+Call ID: call_NxufcL3RcTIASWIGW6QlX6ql
+Input arguments: {'ip_address': '194.87.3.22'}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_NxufcL3RcTIASWIGW6QlX6ql) *****
+IP added to blacklist
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+The IP address `194.87.3.22` was identified as having failed or brute force attempts and has been added to the blacklist. It is no longer trusted and has been blocked from accessing the network.
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+CuriousObserver (to chat_manager):
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_1e23N3QVhp4GCxdjBg8XyeDm): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION get_ips_with_failed_or_brute_force...
+Call ID: call_1e23N3QVhp4GCxdjBg8XyeDm
+Input arguments: {}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_1e23N3QVhp4GCxdjBg8XyeDm) *****
+194.87.3.22
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: ITAdministrator
+
+ITAdministrator (to chat_manager):
+
+***** Suggested tool call (call_LzrtPiqTr63rM0MkRJm9LVf6): check_ip_trust *****
+Arguments: 
+{"ip_address":"194.87.3.22"}
+*******************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION check_ip_trust...
+Call ID: call_LzrtPiqTr63rM0MkRJm9LVf6
+Input arguments: {'ip_address': '194.87.3.22'}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_LzrtPiqTr63rM0MkRJm9LVf6) *****
+IP added to blacklist
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+The IP address `194.87.3.22` was identified as having failed or brute force attempts and has been added to the blacklist. It is no longer trusted and has been blocked from accessing the network.
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+CuriousObserver (to chat_manager):
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_JoiGiTs1R8Kb6ep8GKuGC4Nr): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION get_ips_with_failed_or_brute_force...
+Call ID: call_JoiGiTs1R8Kb6ep8GKuGC4Nr
+Input arguments: {}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_JoiGiTs1R8Kb6ep8GKuGC4Nr) *****
+194.87.3.22
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: ITAdministrator
+
+ITAdministrator (to chat_manager):
+
+***** Suggested tool call (call_yOOS2mLfHf93NHzApWiTNT52): check_ip_trust *****
+Arguments: 
+{"ip_address":"194.87.3.22"}
+*******************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION check_ip_trust...
+Call ID: call_yOOS2mLfHf93NHzApWiTNT52
+Input arguments: {'ip_address': '194.87.3.22'}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_yOOS2mLfHf93NHzApWiTNT52) *****
+IP added to blacklist
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+CuriousObserver (to chat_manager):
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_jKDix3l99UnGngaQRFb0hM0i): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION get_ips_with_failed_or_brute_force...
+Call ID: call_jKDix3l99UnGngaQRFb0hM0i
+Input arguments: {}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_jKDix3l99UnGngaQRFb0hM0i) *****
+192.168.1.5
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: ITAdministrator
+
+ITAdministrator (to chat_manager):
+
+***** Suggested tool call (call_JzJTVwo2bnT5sxGnVuKP2Qcs): check_ip_trust *****
+Arguments: 
+{"ip_address":"192.168.1.5"}
+*******************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION check_ip_trust...
+Call ID: call_JzJTVwo2bnT5sxGnVuKP2Qcs
+Input arguments: {'ip_address': '192.168.1.5'}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_JzJTVwo2bnT5sxGnVuKP2Qcs) *****
+It's a trusted IP
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+The IP address `192.168.1.5` was identified as having failed or brute force attempts, but it is a trusted IP and does not require blocking.
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+CuriousObserver (to chat_manager):
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_65KJpu6zlKKgCb4G0YcbDoLV): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION get_ips_with_failed_or_brute_force...
+Call ID: call_65KJpu6zlKKgCb4G0YcbDoLV
+Input arguments: {}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_65KJpu6zlKKgCb4G0YcbDoLV) *****
+172.16.0.10
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: ITAdministrator
+
+ITAdministrator (to chat_manager):
+
+***** Suggested tool call (call_tSUnLF2rFkjj5wMhuZo0d20t): check_ip_trust *****
+Arguments: 
+{"ip_address":"172.16.0.10"}
+*******************************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+
+>>>>>>>> EXECUTING FUNCTION check_ip_trust...
+Call ID: call_tSUnLF2rFkjj5wMhuZo0d20t
+Input arguments: {'ip_address': '172.16.0.10'}
+CuriousObserver (to chat_manager):
+
+***** Response from calling tool (call_tSUnLF2rFkjj5wMhuZo0d20t) *****
+It's a trusted IP
+**********************************************************************
+
+--------------------------------------------------------------------------------
+
+Next speaker: CuriousObserver
+
+CuriousObserver (to chat_manager):
+
+Hi Soc Analyst, can you check if our Network is being attacked by any IP??
+
+--------------------------------------------------------------------------------
+
+Next speaker: SOCAnalyst
+
+SOCAnalyst (to chat_manager):
+
+***** Suggested tool call (call_CisRxPGwADngTahYI8nVwTrA): get_ips_with_failed_or_brute_force *****
+Arguments: 
+{}
+***************************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (a26ac17c-a202-43c2-acd5-5b41042837da): Maximum rounds (30) reached
